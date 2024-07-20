@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# But not these files...
+!*.cpp
+
+# Ensure that gitignore itself is not ignored
+!.gitignore
