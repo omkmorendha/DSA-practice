@@ -1,9 +1,12 @@
 # Ignore everything
 *
 
+# Ensure that gitignore itself is not ignored
+!.gitignore
+
 # But not these files...
 !*.cpp
 !README.md
 
-# Ensure that gitignore itself is not ignored
-!.gitignore
+# Explicitly ignore test.cpp
+test.cpp
